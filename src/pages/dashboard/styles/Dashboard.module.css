@@ -1,0 +1,21 @@
+.product {
+    column-gap: rem(25px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (min-width: $breakpoint-laptop) {
+        justify-content: flex-start;
+    }
+}
+
+.controls {
+    opacity: 0;
+    transition: opacity 150ms ease;
+}
+
+.addProduct {
+    padding: rem(20px);
+    @media (min-width: $breakpoint-laptop) {
+        padding: rem(10px);
+    }
+}
